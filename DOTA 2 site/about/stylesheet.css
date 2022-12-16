@@ -1,0 +1,61 @@
+.wrapper{
+    background: url(images/bg-1.jpg);
+    background-size: cover;
+    height: 120vh;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+ }
+ .logo{
+    width: 250px;
+    height: auto;
+    padding-left: 50px;
+
+ }
+ .navbar ul{
+    float: right;
+    margin-right: 20px;
+ }
+ .navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+ }
+ .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: .2s;
+ }
+ .navbar ul li a.active,
+ .navbar ul li a:hover{
+    background: rgb(104, 104, 104);
+    border-radius: 2px;
+ }
+ .container-fluid ul{
+    color: rgb(236, 236, 236);
+    font-size: 15px;
+    font-family:'Trebuchet MS', sans-serif;
+ }
+ .container-fluid{
+    margin-left: 50px;
+ }
+ h2, h4{
+    color: rgb(138, 138, 138);
+    font-family: Gill Sans;
+ }
+ h4{
+    font-size: 22px;
+ }
+ .container-fluid article{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Gill Sans';
+    margin-top: 150px;
+    margin-left: 150px;
+ }
