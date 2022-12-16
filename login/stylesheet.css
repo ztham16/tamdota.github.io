@@ -1,0 +1,11 @@
+.wrapper{
+    background: url(/login/images/bg.png) no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+.logo{
+    margin-left: 150px;
+    margin-top: 300px;
+    width: 500px;
+}
+
